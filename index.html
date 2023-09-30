@@ -3,34 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Confraria Corpus Thomisticum</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body class="main-bg">
-    <aside class="menu">
-        <section class="main-content menu-content">
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
         <h1>
-            <a href="#">LOGO</a>
+            <a href="#">Home</a>
         </h1>
 
         <nav>
             <ul>
-                <li><a href="#">intro</a></li>
-                <li><a href="#">top 3</a></li>
-                <li><a href="#">gallery</a></li>
-                <li><a href="#">work</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#grid-one">Conheça o Tomismo</a></li>
+                <li><a href="#know">Obras</a></li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Fale conosco</a></li>
             </ul>
         </nav>
-    </section>
+      </div>
     </aside>
 
-    <section class="section white-bg">
+    <div class="menu-spacing"></div>
+
+    <section id="home" class="intro main-bg section">
+      <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Confraria Corpus Thomisticum</h2>
+        <p>"A todos quantos agora sentem sede da verdade, dizemos-lhes: ide a Tomás de Aquino” (Papa Pio XI, Encíclica Studiorum Ducem, 19 de junho de 1923).</p>
+      </div>
+      <div class="intro-img">
+        <img class="intro-img" src="assets/img/SantoTomas.png" alt="Santo Tomás de Aquino"> 
+      </div>
+    </div>
+  </section>
+
+      
+    <section id="intro" class="white-bg section">
+      <div class="main-content know-content">
+        <h2>Conheça o tomismo:</h2>
+        <p>Em primeiro lugar, a filosofia sendo bem compreendida, pode em certo modo aplainar e fortificar o caminho para a verdadeira fé, e preparar convenientemente a inteligência dos seus discípulos para receberem a Revelação, visto que com razão é chamada pelos antigos umas vezes “instituição prévia para a religião cristã” (Clem. Alex., Strom. lib. I, 16), outras vezes “prelúdio e auxilio do cristianismo” (Orig. ad Greg. Thaum.), e também é chamada “pedagogo para o Evangelho” (Clem. Alex., Strom. I, 5).</p>
+        <p>Ora, se a razão natural produziu essa abundante colheita de doutrina, antes de ser fecundada pela virtude de Cristo, com certeza mais abundante colheita produzirá depois que a graça do Salvador restabeleceu e aumentou as faculdades naturais da alma humana. E quem não verá como por esse modo de filosofar se abre para a fé um caminho plano e fácil?</p>
+        <p>Quanto ao mais, diligenciem os mestres, cuidadosamente escolhidos por vós, fazer penetrar no espírito dos discípulos a doutrina de São Tomás; façam, sobretudo, notar claramente quanto esta é superior às outras em solidez e elevação. Que as Academias que tendes instituído ou houverdes de instituir para o futuro, expliquem esta doutrina a defendam e utilizem para refutação dos erros dominantes.</p>
+      </div>
     </section>
-    <section class="section"></section>
+
+
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Algumas Obras</h2>
+            <p class="grid-description">Suma Teológica, Suma contra os gentios e De Regno</p>
+            <div class="grid">
+                <article>
+                <h3>Suma Teológica</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laudantium autem possimus ex. Hic consequuntur dignissimos, cupiditate distinctio earum, totam quae nam possimus dolorem odit at quas maiores inventore quo?</p>
+                </article>
+                <article>
+                <h3>Suma contra os gentios</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laudantium autem possimus ex. Hic consequuntur dignissimos, cupiditate distinctio earum, totam quae nam possimus dolorem odit at quas maiores inventore quo?</p>
+                 </article>
+                 <article>
+                <h3>De Regno
+                </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur laudantium autem possimus ex. Hic consequuntur dignissimos, cupiditate distinctio earum, totam quae nam possimus dolorem odit at quas maiores inventore quo?</p>
+                 </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="section white-bg">
+      <div class="main-content"></div>
+      <h1>Teste</h1>
+
+    </section>
  </body>
+
 </html>
